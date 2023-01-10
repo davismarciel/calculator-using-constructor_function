@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+
+* {
+    font-family: 'Fira Code', monospace;
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    background-color: rgb(17, 86, 102);
+}
+
+.container {
+    width: fit-content;
+    margin: 50px auto;
+    border: 4px solid rgb(236, 236, 236);
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.calculadora {
+    text-align: 0.65rem;
+    width: 400px;
+}
+
+button {
+    border-radius: 7px;
+}
+
+.display {
+    background-color: #000000;
+    color: #b8c453;
+    border-radius: 10px;
+    margin-bottom: 16px;
+    text-align: right;
+    line-height: 2.8rem;
+    font-size: 2em;
+    width: 100%;
+    border: 2px solid rgb(236, 247, 85);
+}
+
+.btn {
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    border: none;
+    background-color: #dfdfdf;
+}
+
+.btn:hover {
+    background-color: #a3a3a3;
+}
+
+input {
+    outline: none;
+    border: 1px solid black;
+    cursor: default;
+    caret-color: transparent;
+}
